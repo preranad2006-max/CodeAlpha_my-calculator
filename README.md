@@ -1,48 +1,64 @@
 # 🧮 My Calculator
 
-A simple calculator built using **HTML, CSS and JavaScript**.
+> A simple and responsive calculator built using **HTML, CSS, and JavaScript**.
 
-🔗 **Live Demo:** https://preranad2006-max.github.io/CodeAlpha_my-calculator/
+## 🔗 Live Demo
+
+https://preranad2006-max.github.io/CodeAlpha_my-calculator/
 
 ## ✨ Features
-- Addition, Subtraction, Multiplication, Division
-- Percentage and Decimal support
-- Clear and Backspace
-- Keyboard support
-- Responsive design
 
-## 🛠️ Technologies
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- % Percentage
+- 🔹 Decimal support
+- 🧹 Clear (AC)
+- ⌫ Backspace
+- ⌨️ Keyboard support
+- 📱 Responsive design
 
-## 📂 Project Structure
+## 🛠️ Technology Stack
+
+- **HTML5** – Structure
+- **CSS3** – Styling and layout
+- **JavaScript** – Calculator logic
+- **GitHub Pages** – Deployment
+
+## 🏗️ Architecture
 
 ```text
-CodeAlpha_my-calculator/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-🏗️ Architecture
-
-User
- ↓
-HTML (UI)
- ↓
-CSS (Design)
- ↓
-JavaScript (Logic)
- ↓
-Calculation
- ↓
-Display Result
+          ┌─────────────┐
+          │    USER     │
+          └──────┬──────┘
+                 ↓
+        ┌────────────────┐
+        │   HTML (UI)    │
+        └───────┬────────┘
+                ↓
+        ┌────────────────┐
+        │  CSS (Design)  │
+        └───────┬────────┘
+                ↓
+        ┌────────────────┐
+        │ JavaScript     │
+        │    (Logic)     │
+        └───────┬────────┘
+                ↓
+        ┌────────────────┐
+        │  Calculation   │
+        └───────┬────────┘
+                ↓
+        ┌────────────────┐
+        │ Display Result │
+        └────────────────┘
 
 🔄 Flowchart
 
 START
+  ↓
+Open Calculator
   ↓
 Enter Number
   ↓
@@ -52,24 +68,34 @@ Enter Number
   ↓
 Press =
   ↓
-Calculate
+Calculate Result
   ↓
 Display Result
   ↓
-Clear / New Calculation
+New Calculation / Clear
+  ↓
+END
 
 ⚙️ Working
 
-HTML → Creates calculator structure
-CSS → Designs the calculator
-JavaScript → Handles input and calculations
+HTML creates the calculator interface and buttons.
+CSS provides the design, layout, and responsive appearance.
+JavaScript receives user input, performs calculations, and displays the result.
 
 🎯 Objective
 
-To build a functional and responsive calculator while learning basic frontend web development.
+To develop a simple, user-friendly calculator while learning HTML, CSS, JavaScript, DOM manipulation, and event handling.
+
+📂 Project Structure
+
+CodeAlpha_my-calculator/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
 👩‍💻 Author
 
-Prerana
+Prerana D
 
-Made as a CodeAlpha Project.
+Built as a CodeAlpha Project using HTML, CSS, and JavaScript.
