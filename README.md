@@ -4,7 +4,7 @@
 
 ## 🔗 Live Demo
 
-https://preranad2006-max.github.io/CodeAlpha_my-calculator/
+[Open My Calculator](https://preranad2006-max.github.io/CodeAlpha_my-calculator/)
 
 ## ✨ Features
 
@@ -28,74 +28,76 @@ https://preranad2006-max.github.io/CodeAlpha_my-calculator/
 
 ## 🏗️ Architecture
 
+**User → HTML Interface → CSS Design → JavaScript Logic → Calculation → Display Result**
+
+- `index.html` – Calculator structure and buttons
+- `style.css` – Styling and responsive design
+- `script.js` – Calculator functionality and calculations
+
+## 🔄 Flowchart
+
 ```text
-          ┌─────────────┐
-          │    USER     │
-          └──────┬──────┘
-                 ↓
-        ┌────────────────┐
-        │   HTML (UI)    │
-        └───────┬────────┘
-                ↓
-        ┌────────────────┐
-        │  CSS (Design)  │
-        └───────┬────────┘
-                ↓
-        ┌────────────────┐
-        │ JavaScript     │
-        │    (Logic)     │
-        └───────┬────────┘
-                ↓
-        ┌────────────────┐
-        │  Calculation   │
-        └───────┬────────┘
-                ↓
-        ┌────────────────┐
-        │ Display Result │
-        └────────────────┘
+┌─────────────┐
+│    START    │
+└──────┬──────┘
+       ↓
+┌─────────────────┐
+│ Open Calculator │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│  Enter Number   │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│ Select Operator │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│ Enter Number    │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│     Press =     │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│ Calculate Result│
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│ Display Result  │
+└────────┬────────┘
+         ↓
+┌─────────────┐
+│     END     │
+└─────────────┘
 
-🔄 Flowchart
+``` 
 
-START
-  ↓
-Open Calculator
-  ↓
-Enter Number
-  ↓
-Select Operator
-  ↓
-Enter Number
-  ↓
-Press =
-  ↓
-Calculate Result
-  ↓
-Display Result
-  ↓
-New Calculation / Clear
-  ↓
-END
+## ⚙️ Working
 
-⚙️ Working
+1. Enter numbers using the buttons or keyboard.
+2. Select an arithmetic operator.
+3. Enter the second number.
+4. Press `=` to calculate.
+5. JavaScript processes the expression.
+6. The result is displayed on the screen.
+7. Press **AC** to clear the calculation.
 
-HTML creates the calculator interface and buttons.
-CSS provides the design, layout, and responsive appearance.
-JavaScript receives user input, performs calculations, and displays the result.
+## 🎯 Objective
 
-🎯 Objective
+To develop a simple and user-friendly calculator while learning **HTML, CSS, JavaScript, DOM manipulation, and event handling**.
 
-To develop a simple, user-friendly calculator while learning HTML, CSS, JavaScript, DOM manipulation, and event handling.
+## 📂 Project Structure
 
-📂 Project Structure
+- `index.html` – Main HTML file
+- `style.css` – CSS styling file
+- `script.js` – JavaScript functionality
+- `README.md` – Project documentation
 
-CodeAlpha_my-calculator/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+## Author
 
-👩‍💻 Author
+**Prerana D**
 
-Prerana D
-
-Built as a CodeAlpha Project using HTML, CSS, and JavaScript.
+Built as a **CodeAlpha Project** using HTML, CSS, and JavaScript.
